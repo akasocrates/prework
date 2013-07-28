@@ -9,4 +9,4 @@ puts 'Well it was great to meet you, ' + first_name + ' ' + middle_name + ' ' + 
 puts 'OK, so what\'s your favorite number?'
 fave_num = gets.chomp
 bigger_num = fave_num.to_i + 1
-puts 'Well, you know that\'s a good number and all. But ' + bigger_num.to_s + ' is a betterer number!'
+puts 'Well, you know that\'s a good number and all. But ' + bigger_num.to_s + ' is a much betterer number!'
