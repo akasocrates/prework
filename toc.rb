@@ -4,17 +4,3 @@ puts 'Chapter 1: Getting Started'.ljust(line_width/2) + 'page 1'.rjust(line_widt
 puts 'Chapter 2: Numbers'.ljust(line_width/2) + 'page 9'.rjust(line_width/2)
 puts 'Chapter 3: Letters'.ljust(line_width/2) + 'page 13'.rjust(line_width/2)
 
-input = ''
-while input != 'bye'
-	puts input
-	input = gets.chomp
-end
-puts 'Come again soon!'
-
-while 'Spike' > 'Angel'
-	input = gets.chomp
-	puts input
-	if input == 'bye'
-		break
-	end
-end
